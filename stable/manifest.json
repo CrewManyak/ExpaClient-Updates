@@ -1,0 +1,116 @@
+{
+  "schema": 1,
+  "product": "expa-client",
+  "channel": "stable",
+  "sequence": 1,
+  "published": "2026-10-19T14:17:23Z",
+  "launcher": {
+    "version": "0.4.1",
+    "mandatory": false,
+    "windows-x64": {
+      "url": "https://github.com/CrewManyak/ExpaClient-Updates/releases/download/v0.4.1/EXPA-Client-0.4.1-windows-x64.zip",
+      "name": "EXPA-Client-0.4.1-windows-x64.zip",
+      "size": 53564633,
+      "sha256": "5ef51bb6f46fd342b4811166be13651f4dc7c38d8815e63795b9f6eb756bdfdd",
+      "signature": "IGHuV24q01dGbEjnvEB8i49czjakKFQcp8IkiYl0tERki31W14xumbG10F6EH3ipPQh0FP9/hi7U3zzmNg5LBQ=="
+    }
+  },
+  "mods": [
+    {
+      "minecraft": "1.20.1",
+      "version": "0.4.1",
+      "mandatory": false,
+      "file": {
+        "url": "https://github.com/CrewManyak/ExpaClient-Updates/releases/download/v0.4.1/expa-client-fabric-1.20.1-0.4.1.jar",
+        "name": "expa-client-fabric-1.20.1-0.4.1.jar",
+        "size": 419625,
+        "sha256": "bbb7e925d45fd8b2b0dba4290a9c51252031b9375cf037200d08b1cc1d7002ef",
+        "signature": "B45I+Pm3Ggs8jyFlz9zD9/q5sfMpHQaW2PPCOCR7v1w9qoIDZOOn/rHgyH0S2EHFdce3sM1CArCLGlV1lEfRAA=="
+      }
+    },
+    {
+      "minecraft": "1.21.1",
+      "version": "0.4.1",
+      "mandatory": false,
+      "file": {
+        "url": "https://github.com/CrewManyak/ExpaClient-Updates/releases/download/v0.4.1/expa-client-fabric-1.21.1-0.4.1.jar",
+        "name": "expa-client-fabric-1.21.1-0.4.1.jar",
+        "size": 420223,
+        "sha256": "7e3e9291be869241af4e94dbafe5b5acdaf56d5b187b6012b14fda2853dfbb5e",
+        "signature": "45SSQvVKiy1+GrPxeywk02ovDytlKqPBlL4vLyTE/wBp4aM7JYmfruguESmGzRX/JKHLfCCtg+JFzZtax2bzCA=="
+      }
+    },
+    {
+      "minecraft": "1.21.2",
+      "version": "0.4.1",
+      "mandatory": false,
+      "file": {
+        "url": "https://github.com/CrewManyak/ExpaClient-Updates/releases/download/v0.4.1/expa-client-fabric-1.21.2-0.4.1.jar",
+        "name": "expa-client-fabric-1.21.2-0.4.1.jar",
+        "size": 419667,
+        "sha256": "754d1cc53e06ad3d70ec6dd30fad02887167d96248fbba95739811dd51a593c4",
+        "signature": "B+/UF3Omz67EOM7qKiKt3yDkLsGQqFIGarfaciPCPD+Bpbdsd17Oh0hhTNbfJOn+G5wPfpRDPJoccscseztTDA=="
+      }
+    },
+    {
+      "minecraft": "1.21.3",
+      "version": "0.4.1",
+      "mandatory": false,
+      "file": {
+        "url": "https://github.com/CrewManyak/ExpaClient-Updates/releases/download/v0.4.1/expa-client-fabric-1.21.3-0.4.1.jar",
+        "name": "expa-client-fabric-1.21.3-0.4.1.jar",
+        "size": 419667,
+        "sha256": "9262bddd8b203c4b3296ae68f53a347bceb1070ae7b20800ff42a799cb3f50ff",
+        "signature": "nexzEkcQaL/hr08ByqHgF+KKl9i1FatWM+lNKxq9CB0AQcdMY3oiKDdm0OMIThfA3XUtG8ljOmPwOWl8B2HKBA=="
+      }
+    },
+    {
+      "minecraft": "1.21.4",
+      "version": "0.4.1",
+      "mandatory": false,
+      "file": {
+        "url": "https://github.com/CrewManyak/ExpaClient-Updates/releases/download/v0.4.1/expa-client-fabric-1.21.4-0.4.1.jar",
+        "name": "expa-client-fabric-1.21.4-0.4.1.jar",
+        "size": 419667,
+        "sha256": "78ff2767b6e1927c0e1d81202d67f8c0f517e40132066be2f3a2e63dce7ce049",
+        "signature": "sjNT9lKWDb0rnRFZiElOpyeE88za4M5CgmXHKJ2FExAbcoxdv+DTnG4PRmoIVDFmsjrX2xZdm7ElAtCmnCrhDw=="
+      }
+    },
+    {
+      "minecraft": "1.21.5",
+      "version": "0.4.1",
+      "mandatory": false,
+      "file": {
+        "url": "https://github.com/CrewManyak/ExpaClient-Updates/releases/download/v0.4.1/expa-client-fabric-1.21.5-0.4.1.jar",
+        "name": "expa-client-fabric-1.21.5-0.4.1.jar",
+        "size": 419667,
+        "sha256": "b78901509cfabf80830f4f3f897a1a4b83183afef0d17acae82366e2bd28722f",
+        "signature": "aXTBCTkryIgK75Ys2YB7wgRFYU80m2xzj1TsU/jfpZfUsKAWyAw6ZLXgIHO3zPtXmw59IbhhAXUm1nBbQNgADg=="
+      }
+    },
+    {
+      "minecraft": "26.1.2",
+      "version": "0.4.1",
+      "mandatory": false,
+      "file": {
+        "url": "https://github.com/CrewManyak/ExpaClient-Updates/releases/download/v0.4.1/expa-client-fabric-26.1.2-0.4.1.jar",
+        "name": "expa-client-fabric-26.1.2-0.4.1.jar",
+        "size": 419691,
+        "sha256": "531888d3ee09d6e30744914c9d5f92c19b8dfd52f9f586999f3530673d6e5483",
+        "signature": "sy03MbQjbQQVpZc3K8WwzW3nLT0m3DXvUH3loA8cWDHlGaKW4AOc0FPdlh4h6LnPzSZjz5beVBGDGUlMzhgADw=="
+      }
+    },
+    {
+      "minecraft": "26.2",
+      "version": "0.4.1",
+      "mandatory": false,
+      "file": {
+        "url": "https://github.com/CrewManyak/ExpaClient-Updates/releases/download/v0.4.1/expa-client-fabric-26.2-0.4.1.jar",
+        "name": "expa-client-fabric-26.2-0.4.1.jar",
+        "size": 419746,
+        "sha256": "3bc1b31b0565af8f9386c2b1e04e5076831158680656a7329929913fa9575036",
+        "signature": "K1D2Roj37AvUuSfHvq6oPNgfr1+oR6BxBbPN3l28ZjxHt23riDxWfknpLDd260jb6XDjYhu5crBoSbwL9JRcAw=="
+      }
+    }
+  ]
+}
