@@ -1,0 +1,4 @@
+# Signed files must be published byte for byte: no line-ending conversion, ever.
+* -text
+*.json binary
+*.sig binary
