@@ -1,5 +1,5 @@
 {
   "algorithm": "Ed25519",
   "keyId": "expa-2026-1",
-  "signature": "W7WzwLb2mL0Z6w87rjnyYZSYWyyU3jmi/UpSGKNWGFVNKvHXdkphivc/EQaCG9c4MkzDET9x6Ls67/vcwxzIDg=="
+  "signature": "vz2dR8YK0FjaenzPtzIeUE/ZTURBy4heI+i/5cWNk9ky9WYs95Rcookin6NgSfdOOZwY/42z0j6wM3YHFvKpDQ=="
 }
