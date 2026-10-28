@@ -2,174 +2,174 @@
   "schema": 1,
   "product": "expa-client",
   "channel": "stable",
-  "sequence": 9,
-  "published": "2026-10-24T07:13:06Z",
+  "sequence": 10,
+  "published": "2026-10-28T05:56:30Z",
   "launcher": {
-    "version": "0.7.1",
+    "version": "0.7.2",
     "mandatory": false,
-    "notes": "EXPA Client 0.7.1: Minecraft 1.21.8, 1.21.9, 1.21.10 and 1.21.11 added (12 versions, all Java 21 for these four, in-game self test passed); an unreadable launcher.json or accounts.json is kept and restored from its last working copy with a clear notice, nothing is overwritten or reset silently; only one launcher window per data folder (a second start brings it to the front); update downloads and the update check retry network failures safely, a wrong hash or signature is never accepted; stalled game downloads are retried instead of hanging. Profiles, accounts and settings are kept. / Minecraft 1.21.8, 1.21.9, 1.21.10 ve 1.21.11 eklendi (12 sürüm; bu dördü Java 21, oyun içi otomatik test geçti); okunamayan launcher.json veya accounts.json saklanır ve son çalışan kopyasından açık bir bildirimle geri yüklenir, hiçbir şey sessizce silinmez veya sıfırlanmaz; veri klasörü başına tek launcher penceresi (ikinci başlatma açık pencereyi öne getirir); güncelleme indirmeleri ve güncelleme kontrolü ağ hatalarında güvenle yeniden dener, yanlış hash veya imza asla kabul edilmez; takılan oyun indirmeleri beklemek yerine yeniden denenir. Profiller, hesaplar ve ayarlar korunur.",
+    "notes": "EXPA Client 0.7.2: redesigned ClickGUI in EXPA's violet/green design with the sections Modules, HUD Editor and Settings, module cards with a short description and a clear on/off state, and a new Combat category (information and visuals only); new Anti-AFK module, off by default: jumps and/or sends your own chat messages in order, at least 30 s apart, nothing while a menu is open or outside a world (many servers forbid automatic messages: follow each server's rules); Discord Rich Presence is always on and reconnects by itself when Discord is restarted. Profiles, accounts and settings are kept. Sodium: 1.21.8 - 1.21.11 passed EXPA's automated in-game test with Sodium; for 1.21.9 Modrinth supplies Sodium's 1.21.10 build (it declares 1.21.9 support) and for 1.21.11 only a beta (0.8.15-beta.1). These are test results, not a general compatibility guarantee. / ClickGUI yenilendi: EXPA mor-yeşil tasarımı, Modüller, HUD Düzenleyici ve Ayarlar bölümleri, kısa açıklamalı ve açık/kapalı durumu net modül kartları, yeni Dövüş kategorisi (yalnızca bilgi ve görsel); yeni Anti-AFK modülü, varsayılan olarak kapalı: zıplar ve/veya kendi sohbet mesajlarınızı sırayla, en az 30 sn arayla gönderir; menü açıkken ve dünya dışındayken hiçbir şey yapmaz (birçok sunucu otomatik mesajı yasaklar: sunucu kurallarına uyun); Discord Rich Presence her zaman açık ve Discord yeniden açılınca kendiliğinden bağlanır. Profiller, hesaplar ve ayarlar korunur. Sodium: 1.21.8 - 1.21.11, Sodium ile EXPA'nın otomatik oyun içi testini geçti; 1.21.9 için Modrinth Sodium'un 1.21.10 yapısını (1.21.9 desteği bildiriyor), 1.21.11 için yalnızca bir beta (0.8.15-beta.1) sunuyor. Bunlar test sonuçlarıdır, genel uyumluluk garantisi değildir.",
     "windows-x64": {
-      "url": "https://github.com/CrewManyak/ExpaClient-Updates/releases/download/v0.7.1/EXPA-Client-0.7.1-windows-x64.zip",
-      "name": "EXPA-Client-0.7.1-windows-x64.zip",
-      "size": 66126438,
-      "sha256": "c10647ff799c9c6e930e1f787cee047ea3e376056b07a1e22d8ed236b651c76f",
-      "signature": "2R5Rco/+v1J39dE9ZamKbw2ENXE8b/dsV8UhPpZAGi4t/+2+HBvXwp/F2Z8fldK6/zXDBSm64nm0eWd0cyH4DA=="
+      "url": "https://github.com/CrewManyak/ExpaClient-Updates/releases/download/v0.7.2/EXPA-Client-0.7.2-windows-x64.zip",
+      "name": "EXPA-Client-0.7.2-windows-x64.zip",
+      "size": 66316233,
+      "sha256": "f90900bd85e774117a18d9149225d4b0d42b0c52ee63df94f59cee668cd7935a",
+      "signature": "NSafkSB9nn4koN+apTHmmY08puIVewQkXUdzdNjqNnNm/ZuSkWGUPPw9LPbkxHhHmoraXtKvRA5yMZH2sruyCw=="
     }
   },
   "mods": [
     {
       "minecraft": "1.20.1",
-      "version": "0.7.1",
+      "version": "0.7.2",
       "mandatory": false,
       "file": {
-        "url": "https://github.com/CrewManyak/ExpaClient-Updates/releases/download/v0.7.1/expa-client-fabric-1.20.1-0.7.1.jar",
-        "name": "expa-client-fabric-1.20.1-0.7.1.jar",
-        "size": 1319667,
-        "sha256": "d1a2af3d1fb074d63636d1bed42b68d6b06eab5ff1f800d214498864314e47ff",
-        "signature": "vXoZ/pnfGOrGibGbSv+HgNfileahg8t/6YwOwkZ3D7SWbdO8I7x3nCCxhUF2ZPZyD0llThc1vg2G0A+vzAllDQ=="
+        "url": "https://github.com/CrewManyak/ExpaClient-Updates/releases/download/v0.7.2/expa-client-fabric-1.20.1-0.7.2.jar",
+        "name": "expa-client-fabric-1.20.1-0.7.2.jar",
+        "size": 1335404,
+        "sha256": "5d61bc2a7ff59bb18c3726d8b5686785ab239b005a351fca34e8c7025d530e06",
+        "signature": "p7t1HJK+sQwdUx8VMjdACqssYDeTBlzNN3XcUFt99JlGt1uSWsLIXU5R+1BCmr4bBuu9zORCQIimsLTnOTA+Dg=="
       }
     },
     {
       "minecraft": "1.21.1",
-      "version": "0.7.1",
+      "version": "0.7.2",
       "mandatory": false,
       "file": {
-        "url": "https://github.com/CrewManyak/ExpaClient-Updates/releases/download/v0.7.1/expa-client-fabric-1.21.1-0.7.1.jar",
-        "name": "expa-client-fabric-1.21.1-0.7.1.jar",
-        "size": 1319057,
-        "sha256": "fbf8669beea6fa524627b161df39d3b14940ec97a792a1dfcb5b5e12d0ec82d0",
-        "signature": "t8KPHhllPdqWuggrnjW2aTciOsfikLKxTS6uPyloq8++bduVXZ/9l1NXpnJg6ZIStwAqEW+DhzyEPRmC+qoICw=="
+        "url": "https://github.com/CrewManyak/ExpaClient-Updates/releases/download/v0.7.2/expa-client-fabric-1.21.1-0.7.2.jar",
+        "name": "expa-client-fabric-1.21.1-0.7.2.jar",
+        "size": 1334794,
+        "sha256": "39bd6c2d0170844654537eaefc2766d10f8c45febedaade2ce6673257c74e964",
+        "signature": "LwJCWhtTnc0O6jW99IbnBtCg8avjItsotI2u19Utdm53BdbAmH/kaKZzsP7VlQJr+3S8ZZfZtjqMrFpqz6z8Dg=="
       }
     },
     {
       "minecraft": "1.21.2",
-      "version": "0.7.1",
+      "version": "0.7.2",
       "mandatory": false,
       "file": {
-        "url": "https://github.com/CrewManyak/ExpaClient-Updates/releases/download/v0.7.1/expa-client-fabric-1.21.2-0.7.1.jar",
-        "name": "expa-client-fabric-1.21.2-0.7.1.jar",
-        "size": 1319749,
-        "sha256": "c49cc728aff9b616b444f81b5753a3d0674fa3c6eea3cb0a5732f1e9f39571fe",
-        "signature": "Wm90iuzy8f5LDzd5Jmhi0CC6xAYd00nevGMsPO7Irfw7Le+vbBXVVx6zlZH/QlGcsqg0eqTD5neEAoE9OAp3Dw=="
+        "url": "https://github.com/CrewManyak/ExpaClient-Updates/releases/download/v0.7.2/expa-client-fabric-1.21.2-0.7.2.jar",
+        "name": "expa-client-fabric-1.21.2-0.7.2.jar",
+        "size": 1335486,
+        "sha256": "3ca757c845eadee98b7d9ee3a1ccf2a954aa4ecb0217f0acdf2fc3e30cab20ee",
+        "signature": "Ivr5AVkwishXd3W395aCb3OurwGEfUbmsjjUoOTXTquHe6vQpYUjiNoO1UkpzgdKn/dfC4mqpf/OQADrMbEzAA=="
       }
     },
     {
       "minecraft": "1.21.3",
-      "version": "0.7.1",
+      "version": "0.7.2",
       "mandatory": false,
       "file": {
-        "url": "https://github.com/CrewManyak/ExpaClient-Updates/releases/download/v0.7.1/expa-client-fabric-1.21.3-0.7.1.jar",
-        "name": "expa-client-fabric-1.21.3-0.7.1.jar",
-        "size": 1319749,
-        "sha256": "cd3e4a95aed512e50ff658924ad2e038054413f21ad7aacbe61fdf72a3f01846",
-        "signature": "/aaBQQ7QU72singK4x6JNn1di5iJZaBwjLQtxd3VhM0XcSmchyMOPf98wHFL2Tx66SX98Amt8qh/vX56UBDdAA=="
+        "url": "https://github.com/CrewManyak/ExpaClient-Updates/releases/download/v0.7.2/expa-client-fabric-1.21.3-0.7.2.jar",
+        "name": "expa-client-fabric-1.21.3-0.7.2.jar",
+        "size": 1335486,
+        "sha256": "8391558a0492bc8fe3d4e8310124949b3de9d1aa0099aaa27eac4a3183f00bd6",
+        "signature": "WgbnGDhCQONs1Oc61wfdPSFx/iL9BE/FNltD8q39YS4rQ+MRyEUTpAKGlXMdhhZMwhq8Xr1RSh6DgztT6VSeDQ=="
       }
     },
     {
       "minecraft": "1.21.4",
-      "version": "0.7.1",
+      "version": "0.7.2",
       "mandatory": false,
       "file": {
-        "url": "https://github.com/CrewManyak/ExpaClient-Updates/releases/download/v0.7.1/expa-client-fabric-1.21.4-0.7.1.jar",
-        "name": "expa-client-fabric-1.21.4-0.7.1.jar",
-        "size": 1319747,
-        "sha256": "87054a4f9c0d804cc5d75fcf0350b96de7b8e9480a77ce9969d505a07e9352cd",
-        "signature": "FnG7aq7XpPeLmK5xlYap7IUKlEI20ijkp/n1jzVJ7SLlDsKyshPaFyBDEbXLZnslN/sgr+ghIkanUPSBKf9QAA=="
+        "url": "https://github.com/CrewManyak/ExpaClient-Updates/releases/download/v0.7.2/expa-client-fabric-1.21.4-0.7.2.jar",
+        "name": "expa-client-fabric-1.21.4-0.7.2.jar",
+        "size": 1335484,
+        "sha256": "c326c9d3725d852cfe9c309b0c5b49874e6bcd98c47e786137157a81082a5de1",
+        "signature": "2L6h4SC3SFbu4Y1cOrtTj6cQ+qfPDQ2wsCN+AQCDR4YB62k39naCFL5qAi6yuOILmPthnEgxETvfScqTBUshAQ=="
       }
     },
     {
       "minecraft": "1.21.5",
-      "version": "0.7.1",
+      "version": "0.7.2",
       "mandatory": false,
       "file": {
-        "url": "https://github.com/CrewManyak/ExpaClient-Updates/releases/download/v0.7.1/expa-client-fabric-1.21.5-0.7.1.jar",
-        "name": "expa-client-fabric-1.21.5-0.7.1.jar",
-        "size": 1323723,
-        "sha256": "22e6c15aebce8de7b4015e70dea4bb9ac76b75210205aa66901200dd1fb3c55f",
-        "signature": "AB30qPm/InlYLx7twgqgpJ0gHJ8wyJcvTyqQRZktBgfZxYcN7GvZfCBs3q7CAXo2Tz9S9JyQhU8LAiMg6WwrDg=="
+        "url": "https://github.com/CrewManyak/ExpaClient-Updates/releases/download/v0.7.2/expa-client-fabric-1.21.5-0.7.2.jar",
+        "name": "expa-client-fabric-1.21.5-0.7.2.jar",
+        "size": 1339460,
+        "sha256": "75706372252eac0faa9e618cf03ba83ec90e1d0cb18b4ed59d64c3732a11995c",
+        "signature": "DzX5Fc83wacLBdhs4vbD12d9ClfokW3zaLiPVKXyGKkGRPsNoR2jIBC5jgkt8rxTMmN4qxFwQNeJFXOfYFnhBw=="
       }
     },
     {
       "minecraft": "26.1.2",
-      "version": "0.7.1",
+      "version": "0.7.2",
       "mandatory": false,
       "file": {
-        "url": "https://github.com/CrewManyak/ExpaClient-Updates/releases/download/v0.7.1/expa-client-fabric-26.1.2-0.7.1.jar",
-        "name": "expa-client-fabric-26.1.2-0.7.1.jar",
-        "size": 1319056,
-        "sha256": "53dfbbf7330ada1c122b8da409fe022c6a47df15f993023ec7b695d2af720747",
-        "signature": "4nN0umG5xGlr/aNoucpo5BjchGgv9dcKjarrdegErcQD8kZaz0GPn9FLoUD4Qh9PJgdXpWEbb08B430RhVhMAw=="
+        "url": "https://github.com/CrewManyak/ExpaClient-Updates/releases/download/v0.7.2/expa-client-fabric-26.1.2-0.7.2.jar",
+        "name": "expa-client-fabric-26.1.2-0.7.2.jar",
+        "size": 1334793,
+        "sha256": "48d898d4457e6a1eb61644e1358393e2ea71eb427b0c7e6d0838df14baa943b8",
+        "signature": "W6a80PrFuekU3pcWjMNS1abkwOqi46pEzOWARoIB+5Cxr6yX2vjzqIQ/6K8AisDkvHPOHDUCGj+07bnezbS7Dw=="
       }
     },
     {
       "minecraft": "26.2",
-      "version": "0.7.1",
+      "version": "0.7.2",
       "mandatory": false,
       "file": {
-        "url": "https://github.com/CrewManyak/ExpaClient-Updates/releases/download/v0.7.1/expa-client-fabric-26.2-0.7.1.jar",
-        "name": "expa-client-fabric-26.2-0.7.1.jar",
-        "size": 1319109,
-        "sha256": "bcecca9b0a74afceba365c49b31eab0f453dda575a65a5572a79acc9fe57f5da",
-        "signature": "/lyu2hJxKml1gFtyfzKgDx9SAxlP6e2eD1E3Fk+JioVP9AQjJexAoAUr9Y25MdTNtvXvWtPnT6V4NXRQxVSlBw=="
+        "url": "https://github.com/CrewManyak/ExpaClient-Updates/releases/download/v0.7.2/expa-client-fabric-26.2-0.7.2.jar",
+        "name": "expa-client-fabric-26.2-0.7.2.jar",
+        "size": 1334846,
+        "sha256": "7f594dfca8aa8a390692398c5a772c7984568b760f1cbc0b2de5407c41fe149d",
+        "signature": "QBIJp44E9HKdi2CDSBgtxdOVFm7Crx/MJapBwc5ipeRZY8uP/pmkgBCwj/htARY6bmQIBzVhBKRsLPvUWWzBBA=="
       }
     },
     {
       "minecraft": "1.21.10",
-      "version": "0.7.1",
+      "version": "0.7.2",
       "mandatory": false,
       "file": {
-        "url": "https://github.com/CrewManyak/ExpaClient-Updates/releases/download/v0.7.1/expa-client-fabric-1.21.10-0.7.1.jar",
-        "name": "expa-client-fabric-1.21.10-0.7.1.jar",
-        "size": 1322859,
-        "sha256": "926d039549ed9d909da580c56cc2f322c426a93cbca4949e888bc39efab25656",
-        "signature": "5RcYMxN+T0gCn/uXTHWqfjCUgSa+6kwrX6vPOuyzLkLCHz+4RisgtUW1XSGDjkMvTHx5vFPeBssRZ19kPlkYDA=="
+        "url": "https://github.com/CrewManyak/ExpaClient-Updates/releases/download/v0.7.2/expa-client-fabric-1.21.10-0.7.2.jar",
+        "name": "expa-client-fabric-1.21.10-0.7.2.jar",
+        "size": 1338597,
+        "sha256": "da1f17e4d4fdfc98e1f9d3c0b14b91607f63ed1e3f4e42ef86f2308602e3dfe0",
+        "signature": "LLuOpcF/QiJFAqOsyITmkKLBszUsxtVGelWLFIEJBfWI6bbfohFKJ9QlEs5zF+qsDDGHRUIu4EdK0/cIlVeOCA=="
       }
     },
     {
       "minecraft": "1.21.11",
-      "version": "0.7.1",
+      "version": "0.7.2",
       "mandatory": false,
       "file": {
-        "url": "https://github.com/CrewManyak/ExpaClient-Updates/releases/download/v0.7.1/expa-client-fabric-1.21.11-0.7.1.jar",
-        "name": "expa-client-fabric-1.21.11-0.7.1.jar",
-        "size": 1320829,
-        "sha256": "7a639bce0f98196ea8bc80a75bcdc3c1720b450e590a8edd534f5d3bf6650954",
-        "signature": "z9A2QFDwj+uqAWYUAipljwkYAgY99g7m8U9BnJ/c4LS50izUz8JPGLabhsE41BJ/aUnsGv6lJ5hClOWyb8kqDA=="
+        "url": "https://github.com/CrewManyak/ExpaClient-Updates/releases/download/v0.7.2/expa-client-fabric-1.21.11-0.7.2.jar",
+        "name": "expa-client-fabric-1.21.11-0.7.2.jar",
+        "size": 1336566,
+        "sha256": "94148082c06a5f92489d9ee1f909a5350ff78312f72c70e61aa48fffdc410155",
+        "signature": "92YcSk3XjjRVWyP/tUf4KDb5Gv6mX3Z3U2kiKDXXCCXovLJDSS9v/HUnumNZakkXJlyGLcHtYNuBIoC/oRaZCQ=="
       }
     },
     {
       "minecraft": "1.21.8",
-      "version": "0.7.1",
+      "version": "0.7.2",
       "mandatory": false,
       "file": {
-        "url": "https://github.com/CrewManyak/ExpaClient-Updates/releases/download/v0.7.1/expa-client-fabric-1.21.8-0.7.1.jar",
-        "name": "expa-client-fabric-1.21.8-0.7.1.jar",
-        "size": 1322296,
-        "sha256": "43eaeca5cd20ab7d55089a6072302d2bea33fd2f59725e93c683dd878f06cfe4",
-        "signature": "oQ9GknaT/oDaDi6+g2E92XB1cTga0QQrYK9TMcg5qaORr9ISAS/ryIIOBHJHVmtQYwkdQjcLDNYM/mbpRsedCA=="
+        "url": "https://github.com/CrewManyak/ExpaClient-Updates/releases/download/v0.7.2/expa-client-fabric-1.21.8-0.7.2.jar",
+        "name": "expa-client-fabric-1.21.8-0.7.2.jar",
+        "size": 1338033,
+        "sha256": "6617f517b2de4173dcb65e8eef73e7e6c27a6abaacf0884dbe3dfbb260eec13a",
+        "signature": "gTj7wcQjKIcpi8kNJnuTZ5GWfU/YJgXz7lX/JdtulSoYBnkreFJ1NCfAIF6xexa7KSLbipNbKSuxrgON+5tBAw=="
       }
     },
     {
       "minecraft": "1.21.9",
-      "version": "0.7.1",
+      "version": "0.7.2",
       "mandatory": false,
       "file": {
-        "url": "https://github.com/CrewManyak/ExpaClient-Updates/releases/download/v0.7.1/expa-client-fabric-1.21.9-0.7.1.jar",
-        "name": "expa-client-fabric-1.21.9-0.7.1.jar",
-        "size": 1322859,
-        "sha256": "9715e6d6c5c9b0aa869a48b3c7e45fdd2f41f90c6dfa213d68111966ff73e80f",
-        "signature": "6DXjV6/2wIZ5kVffuJpZtr69QdqFpxLNLReeXlWqyoDvJ6CERHhl8ssanCYCBlfEUVAogLNrvxkskUIFDDfjAw=="
+        "url": "https://github.com/CrewManyak/ExpaClient-Updates/releases/download/v0.7.2/expa-client-fabric-1.21.9-0.7.2.jar",
+        "name": "expa-client-fabric-1.21.9-0.7.2.jar",
+        "size": 1338596,
+        "sha256": "24efb75baa650b4a9468ac9e3f0fe78312710c040ae90ef5c7a1ece1cd737775",
+        "signature": "Ocmt8o11oTzYe8zB4SMpSuqGvGWhIPqAhNgkp4EyXGh4AlX6BofgKqYRTzc9AQtc261ynkwepE4mZ7WPwatdAA=="
       }
     }
   ],
   "installer": {
-    "version": "0.7.1",
+    "version": "0.7.2",
     "windows-x64": {
-      "url": "https://github.com/CrewManyak/ExpaClient-Updates/releases/download/v0.7.1/EXPA-Client-Setup-0.7.1.exe",
-      "name": "EXPA-Client-Setup-0.7.1.exe",
-      "size": 37386793,
-      "sha256": "3e69079ec39e5d2088f987469f3d7e8cd28703128b9a4274e6bd937501d77a51",
-      "signature": "ZxwNxWIej3KygqaLVoJYwhtvGl8y5VLKhTgjw8RxHU92O7K7UKN9zRB6HMPlE2yos7W5r1GmU8evgNqTzE/wDg=="
+      "url": "https://github.com/CrewManyak/ExpaClient-Updates/releases/download/v0.7.2/EXPA-Client-Setup-0.7.2.exe",
+      "name": "EXPA-Client-Setup-0.7.2.exe",
+      "size": 37402375,
+      "sha256": "c856b79f94c627be0c6e1f83a204920fafe17c57f3a3a0f0f981ddbf7671c2df",
+      "signature": "WBsJQEGCv2Dt1FbryRUc2fue0ZLSuRVJtpJUUX1WGOIrYkQp/2Hw60eMKHMy07O61zPnO7SuKzEiQYIk8XfODw=="
     }
   }
 }
